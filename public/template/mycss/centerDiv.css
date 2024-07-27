@@ -1,0 +1,15 @@
+body {
+  background-color: #e9b03f11;
+}
+.container {
+  position: relative;
+}
+
+.container .card {
+  position: fixed;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: (-50%, -50%);
+}
