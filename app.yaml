@@ -1,0 +1,5 @@
+runtime: php83 # Untuk PHP 8.3.x
+entrypoint: serve public/index.php
+
+env_variables:
+  CI_ENVIRONMENT: "production"
