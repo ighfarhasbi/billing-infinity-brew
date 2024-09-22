@@ -45,7 +45,7 @@ class Cache extends BaseConfig
      * @deprecated Use the driver-specific variant under $file
      */
     // public string $storePath = WRITEPATH . 'cache/';
-    public string $storePath = '/tmp/';
+    public string $storePath = WRITEPATH . '/tmp/';
 
     /**
      * --------------------------------------------------------------------------
