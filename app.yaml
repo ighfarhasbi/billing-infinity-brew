@@ -2,4 +2,4 @@ runtime: php83 # Sesuaikan dengan versi PHP yang digunakan
 entrypoint: serve public/index.php
 
 env_variables:
-  CI_ENVIRONMENT: "development"
+  CI_ENVIRONMENT: "production"
